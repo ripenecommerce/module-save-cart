@@ -18,4 +18,11 @@ class Save extends \Magento\Framework\View\Element\Template
     {
         return $this->getUrl('savecart/cart/save');
     }
+
+    public function getSaveCartLinkConfig()
+    {
+        return \Zend_Json::encode([
+            'saveCartLinkUrl' => $this->getAction()
+        ]);
+    }
 }

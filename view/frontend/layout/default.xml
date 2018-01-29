@@ -4,5 +4,18 @@
         <referenceBlock name="top.links">
             <block class="Vekeryk\SaveCart\Block\Link" name="savecart-link" after="my-account-link"/>
         </referenceBlock>
+        <referenceContainer name="minicart.addons">
+            <block class="Vekeryk\SaveCart\Block\Cart\Save" name="checkout.cart.save">
+                <arguments>
+                    <argument name="jsLayout" xsi:type="array">
+                        <item name="components" xsi:type="array">
+                            <item name="saveCartLink" xsi:type="array">
+                                <item name="component" xsi:type="string">Vekeryk_SaveCart/js/save-cart-link</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceContainer>
     </body>
 </page>
