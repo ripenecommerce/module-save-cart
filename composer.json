@@ -7,6 +7,14 @@
         {
             "name": "Oleksandr Vekeryk",
             "email": "alexandervekerik@gmail.com"
+        },
+        {
+            "name": "Jim Chao",
+            "email": "jchao@ripen.com"
+        },
+        {
+            "name": "Misha Medvedev",
+            "email": "mmedvedev@ripen.com"
         }
     ],
     "description": "Magento 2 save cart extension",
