@@ -14,5 +14,15 @@
                 </action>
             </referenceBlock>
         </referenceContainer>
+        <referenceBlock name="checkout.cart.item.renderers.default.actions.remove">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">Vekeryk_SaveCart::cart/item/renderer/actions/remove.phtml</argument>
+            </action>
+        </referenceBlock>
+        <referenceBlock name="checkout.cart.item.renderers.simple.actions.remove">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">Vekeryk_SaveCart::cart/item/renderer/actions/remove.phtml</argument>
+            </action>
+        </referenceBlock>
     </body>
 </page>

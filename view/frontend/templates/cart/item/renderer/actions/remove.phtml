@@ -1,0 +1,14 @@
+<?php
+// @codingStandardsIgnoreFile
+
+/** @var \Magento\Checkout\Block\Cart\Item\Renderer\Actions\Remove $block */
+/** @var Magento\Quote\Model\Quote\Item $item */
+$item = $this->getItem();
+?>
+<button type="submit"
+        name="remove_item_action"
+        value="remove_item"
+        title="<?php echo $block->escapeHtml(__('Remove item')); ?>"
+        class="action action-delete">
+    <span><?php /* @escapeNotVerified */ echo __('Remove item'); ?></span>
+</button>
