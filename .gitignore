@@ -1,0 +1,24 @@
+# Development environment files
+/.idea
+/.vscode
+/.vagrant
+/.grunt
+/.php_cs.cache
+/composer.phar
+*.sql
+
+# Ignore merge conflict leftovers
+*~*
+*.orig
+
+# OS/IDE auto-generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+_notes
+
+# gitkeeps
+!**/.gitkeep
